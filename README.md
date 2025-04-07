@@ -1,34 +1,44 @@
-# 📈 Stock Price Analysis & Prediction
+# 📈 Stock Price Analysis & Prediction (Google Colab)
 
-This project uses historical stock price data to analyze and visualize trends, calculate daily returns, and apply simple machine learning models to predict stock prices.
+This project analyzes and visualizes historical stock price data using **Google Colab**. It calculates daily returns, moving averages, and uses machine learning models for stock price prediction.
 
 ---
 
 ## 📊 Features
 
-- Visualizes closing price over time  
-- Calculates daily returns  
-- Computes moving averages (20-day & 50-day)  
-- Uses Linear Regression and Decision Tree for price prediction  
-- Interactive plots using Matplotlib and Seaborn  
-- Pulls real-time data using Yahoo Finance (`yfinance`)
+- Visualizes closing prices over time  
+- Calculates daily return percentages  
+- Computes 20-day and 50-day moving averages  
+- Uses Linear Regression & Decision Tree Regression for prediction  
+- Pulls real-time stock data using Yahoo Finance (`yfinance`)
 
 ---
 
-## 🛠️ Technologies Used
+## 🚀 Run it on Google Colab
 
-- Python
-- Pandas, NumPy
-- Matplotlib, Seaborn
-- Scikit-learn
-- Yahoo Finance API (`yfinance`)
-- Jupyter Notebook
+1. Open the notebook in Google Colab
+2. Run the cells one by one
+3. Enter any stock symbol (e.g., `AAPL`, `TSLA`, `INFY.NS`) when prompted
 
 ---
 
-## 🏁 How to Run
+## 🔧 Libraries Used
 
-1. Clone the repo or download the notebook
-2. Install the required packages:
-   ```bash
-   pip install pandas numpy matplotlib seaborn yfinance scikit-learn
+- `pandas`, `numpy` for data handling  
+- `matplotlib`, `seaborn` for visualization  
+- `yfinance` to fetch stock data  
+- `scikit-learn` for ML models (Linear Regression, Decision Tree)
+
+---
+
+## 📌 Sample Stock Symbols
+
+- `AAPL` - Apple  
+- `TSLA` - Tesla  
+- `GOOGL` - Alphabet  
+- `INFY.NS` - Infosys (India NSE)
+
+
+
+---
+
